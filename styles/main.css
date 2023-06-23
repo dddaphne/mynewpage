@@ -6,8 +6,13 @@ classes are denotedby '.'
 */
 
 body {
-	background-color: #fffcde;
-	font-family: 'Roboto', sans-serif;
+	background-color: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+	font-family: 'Fredoka', sans-serif;
+	font-size:18px;
+	color:black;
+	text-align: center;
+	background-image: linear-gradient(90deg, #eff0a5 0%, #f1fd7b 35%, #bbf9a3 100%);
+
 }
 
 #main {
@@ -23,9 +28,14 @@ body {
 	text-align: center;
 }
 
+#profile:hover{
+	background-color: #FFF830}
+
 #profile-pic {
 	border-radius: 50%;
-	width: 200px;
+	width: 300px;
 	height: 200px;
 	margin: auto;
 }
+.body-text {padding-bottom: 24px;
+padding-top: 24px;}
